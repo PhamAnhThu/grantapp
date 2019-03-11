@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
   accepts_nested_attributes_for :programs
   validates_presence_of :first_name, :last_name, :phone_number, :organization
   validates_presence_of :address, :state, :city
-  validates_length_of :phone_number, :is => 10
+  validates_length_of :phone_numberg, :is => 10
   validates_length_of :zip_code, :is => 5
   validates_numericality_of :phone_number, :zip_code
   

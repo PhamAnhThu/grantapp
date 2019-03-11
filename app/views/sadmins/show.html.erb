@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @sadmin.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @sadmin.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @sadmin.email %>
+</p>
+
+<p>
+  <strong>Organization:</strong>
+  <%= @sadmin.organization %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @sadmin.phone_number %>
+</p>
+
+<%= link_to 'Edit', edit_sadmin_path(@sadmin) %> |
+<%= link_to 'Back', sadmins_path %>

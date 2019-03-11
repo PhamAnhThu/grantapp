@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :sadmins
+
   resources :feedbacks
 
   resources :programs
